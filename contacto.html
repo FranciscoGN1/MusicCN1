@@ -1,0 +1,71 @@
+<html>
+	<title>Contacto</title>
+<head>
+<style type="text/css">
+.tabla{ 
+	border-collapse: separate;
+	font-size: 1.75em;
+	color: black;
+	border: 2px;
+	font-family: verdana, arial, sans-serif;
+	background-color: lightgray;
+    border-color: purple;
+	border-style: dotted;
+	}
+#identificador{
+	font-family: sans-serif;
+	text-decoration: underline; 
+	color: black;  
+	text-align: center;
+	}	
+</style>
+</head>
+	<body background="imagenes/de azul a morado.jpg">
+	<h1> <center> Contacto </center> </h1>
+	<table class="tabla" align="center">
+
+<tr>
+	<td id="identificador">Nombre: </td>
+<td>
+	<input type="text" name="nombre">
+</td>
+</tr>
+
+<tr>
+<td id="identificador">Apellido: </td>
+<td>
+<input type="text" name="apellido">
+</td>
+</tr>
+
+<tr> 
+<td id="identificador">Correo: </td>
+<td>
+<input type="email" name="correo">
+</td>
+</tr> 
+
+<tr>
+<td id="identificador">Tel&eacutefono: </td>
+<td>
+<input type="tel" name="telefono">
+</td>
+</tr>
+
+<tr>
+<td id="identificador">Comentarios: </td>
+<td>
+<textarea rows="6" name="comentarios">
+</textarea>
+</td>
+</tr>
+
+<tr>
+<td colspan=2>
+<center> <input type="submit" value="Enviar">
+<input type="reset" value="Borrar" /> </center>
+</td>
+</tr>
+</table>
+</form>
+</html>
